@@ -1,0 +1,20 @@
+# Real mine data is commercially sensitive (see UNIT_COST_NAVIGATOR_BRIEF.md,
+# section 5) and is intentionally never pushed to this repository. Keep your
+# own copy of real_data/ locally, alongside app.py, to run this tool with
+# real figures -- see README_START_HERE.txt.
+real_data/
+
+# Python virtual environment / bytecode
+venv/
+__pycache__/
+*.pyc
+
+# Old build artifacts from earlier iterations, not part of the current app
+Claude outputs/
+
+# Local dev-preview tooling config (not part of the app)
+.claude/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
