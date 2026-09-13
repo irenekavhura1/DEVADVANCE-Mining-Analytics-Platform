@@ -15,6 +15,11 @@ Claude outputs/
 # Local dev-preview tooling config (not part of the app)
 .claude/
 
+# Generated exports (findings PDFs/xlsx/docx), never source
+devadvance_research_findings.*
+sensitivity_matrix.xlsx
+discrepancy_log.csv
+
 # OS / editor cruft
 .DS_Store
 Thumbs.db
